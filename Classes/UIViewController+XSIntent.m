@@ -76,7 +76,7 @@ static void * KEY_IS_CLOSED = &KEY_IS_CLOSED;
     [self finishWithResultCode:resultCode andResultData:nil];
 }
 
-- (void)finishWithResultCode:(NSInteger)resultCode andResultData:(NSDictionary *)resultData {
+- (void)finishWithResultCode:(NSInteger)resultCode andResultData:(NSDictionary * __nullable)resultData {
     
     id delegate = [[self intent] delegate];
     if (!delegate){

@@ -47,7 +47,7 @@ FOUNDATION_EXTERN NSInteger const RESULT_CANCELED;
 /// - Parameters:
 ///   - resultCode: 关闭类型
 ///   - resultData: 关闭返回参数
-- (void)finishWithResultCode:(NSInteger)resultCode andResultData:(NSDictionary *)resultData;
+- (void)finishWithResultCode:(NSInteger)resultCode andResultData:(NSDictionary * __nullable)resultData;
 
 /// 添加 Intent 属性
 - (void)setIntent:(XSIntent *)intent;
